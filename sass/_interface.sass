@@ -1,0 +1,47 @@
+.button
+  width: 270px
+  height: 60px
+  background-color: #ff4e2e
+  border: none
+  color: #ffffff
+  &:hover
+    cursor: pointer
+    background-color: darken(#ff4e2e, 5%)
+  &:focus
+    outline: none  
+  &_o
+    width: 207px
+    height: 45px
+    border: 1px solid #f82370
+    background-color: #fbfbfb
+    color: #f82370
+    &:hover
+      background-color: #fc557c
+      color: #ffffff
+  &_big
+    width: 248px
+    height: 45px  
+  &_header
+    img
+      display: none    
+.slick
+  &-slide
+    outline: none
+    position: relative
+  &-arrow
+    width: 60px
+    height: 60px
+    border-radius: 50% 
+    position: absolute
+    top: 40%
+    transform: translateY(-50%)
+    z-index: 99
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08)
+    &:hover
+      cursor: pointer
+    &_left
+      background: #fff url(../img/work/left-arrow.png) center no-repeat
+      left: -27px
+    &_right 
+      background: #fff url(../img/work/right-arrow.png) center no-repeat 
+      right: -27px
